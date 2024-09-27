@@ -1,0 +1,55 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Truffle build artifacts and dependencies
+build/
+artifacts/
+.cache/
+
+# MetaMask Secret Key Files
+*.secret
+
+# Ganache Database Files
+*.log
+*.pid
+*.bak
+*.gz
+*.db
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage files
+coverage/
+coverage.json
+.nyc_output/
+
+# Truffle migration artifacts
+migrations/
+*.migrations.log
+
+# Environment variable files
+.env
+
+# Tests output
+test-output/
+test/*.js.map
+
+# Ethereum/Truffle/Ganache temporary files
+*.test.ts
+*.temp.ts
+
+# Solidity/Truffle Debugging files
+debug.log
+
+# Optional: Exclude sensitive files such as private keys
+*.keys
